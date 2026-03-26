@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
     void XULY_CONG(){
         String so1 = editTextSo1.getText().toString();
         String so2 = editTextSo2.getText().toString();
-        float num1 = Float.parseFloat(so1);
+        float num1 = Float.parseFloat(so1) ;
         float num2 = Float.parseFloat(so2);
         float tong = num1 + num2;
         String chuoiKQ = String.valueOf(tong);
