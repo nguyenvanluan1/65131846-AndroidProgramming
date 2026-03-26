@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:padding="1dp"
+    android:background="#FFC107"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imAnhDaiDien"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/design_default_color_secondary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="2dp"        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTenMonAnh"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:text="Món thứ nhất" />
+
+        <TextView
+            android:id="@+id/tvDonGia"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:textSize="10dp"
+            android:text="200000đ" />
+        <TextView
+            android:id="@+id/tvMoTa"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:textSize="10dp"
+            android:text="Nội dung mô tả ở đây" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
