@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TH11FragmentTinh" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#1250C8</item>
+    </style>
+
+    <style name="Theme.TH11FragmentTinh" parent="Base.Theme.TH11FragmentTinh" />
+</resources>
