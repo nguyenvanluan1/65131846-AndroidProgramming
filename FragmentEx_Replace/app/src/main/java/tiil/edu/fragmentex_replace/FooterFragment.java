@@ -20,10 +20,10 @@ public class FooterFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
 
         View v = inflater.inflate(R.layout.fragment_footer, container, false);
-        //find view
+
         Button b1 = v.findViewById(R.id.button1);
         Button b2 = v.findViewById(R.id.button2);
         Button b3 = v.findViewById(R.id.button3);
@@ -34,7 +34,7 @@ public class FooterFragment extends Fragment{
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //code here
+
                 fragmentManager.beginTransaction()
                         .replace(R.id.fragmentContainerView_Content, new Fragment1())
                         .commit();
@@ -43,7 +43,7 @@ public class FooterFragment extends Fragment{
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //code here
+
                 fragmentManager.beginTransaction()
                         .replace(R.id.fragmentContainerView_Content, new Fragment2())
                         .commit();
@@ -52,7 +52,7 @@ public class FooterFragment extends Fragment{
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //code here
+
                 fragmentManager.beginTransaction()
                         .replace(R.id.fragmentContainerView_Content, new Fragment3())
                         .commit();

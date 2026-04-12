@@ -5,7 +5,7 @@
     android:id="@+id/frameLayout5"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6A189A"
+    android:background="#672290"
     tools:context=".Fragment3">
 
     <TextView
